@@ -1,0 +1,36 @@
+# ==========================================
+# AgriHub - Git Ignore
+# ==========================================
+
+# Local database configuration
+/config/db.php
+
+# Environment / secret files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local database backups / exports
+*.sql.gz
+*.zip
+
+# Dependencies (if added in future)
+vendor/
+node_modules/
